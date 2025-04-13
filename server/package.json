@@ -1,4 +1,6 @@
 {
+  "homepage": "https://Aditi16-ctrl.github.io/Stocks-Trading-MERN",
+
   "name": "server",
   "version": "1.0.0",
   "description": "",
@@ -15,6 +17,6 @@
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mongoose": "^7.4.2"
+    "mongoose": "^7.8.6"
   }
 }
