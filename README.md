@@ -110,7 +110,11 @@ Custom CSS modules are used for modularity and clarity. Key style highlights:
 
 ## 📸 Screenshots
 
-> _Add screenshots here of the landing page, dashboard, trading UI, and news section._
+![Screenshot 2025-04-13 215500](https://github.com/user-attachments/assets/1066ffd1-59c7-414b-b69e-2a9bb414b507)
+![Screenshot 2025-04-13 215335](https://github.com/user-attachments/assets/7e19f4a3-2046-4fff-bd1d-bd4d3ec3158b)
+![Screenshot 2025-04-13 215148](https://github.com/user-attachments/assets/e4a65f0c-f43f-4f95-bea7-5c21562b188c)
+![Screenshot 2025-04-13 215045](https://github.com/user-attachments/assets/4102735f-3eb6-4887-afac-3b9d89bbb303)
+![Screenshot 2025-04-13 214923](https://github.com/user-attachments/assets/b53a786b-d8c8-4584-a16c-fed51f590175)
 
 ## 🙌 Acknowledgements
 
