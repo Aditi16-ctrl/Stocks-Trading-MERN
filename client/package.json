@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Aditi16-ctrl.github.io/Stocks-Trading-MERN",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -7,10 +8,12 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "apexcharts": "^3.41.1",
-    "axios": "^1.4.0",
+    "axios": "^1.8.4",
     "bootstrap": "^5.3.1",
+    "chart.js": "^4.4.8",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.1",
+    "react-chartjs-2": "^5.3.0",
     "react-dom": "^18.2.0",
     "react-google-charts": "^4.0.1",
     "react-icons": "^4.10.1",
@@ -22,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "node index.js && npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
