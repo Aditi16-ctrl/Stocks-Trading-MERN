@@ -55,7 +55,8 @@ server/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/stock-trading-app.git
+git clone https://github.com/Aditi16-ctrl/Stocks-Trading-MERN
+.git
 cd stock-trading-app
 ```
 
@@ -77,7 +78,7 @@ npm install
 
 #### Backend
 ```bash
-npm start
+node index.js
 ```
 
 #### Frontend
