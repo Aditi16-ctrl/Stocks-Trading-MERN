@@ -29,26 +29,73 @@ A full-stack stock trading platform where users can sign up, manage their portfo
 ## 📁 Folder Structure
 
 ```
-client/
+Stocks-Trading-MERN
 │
-├── src/
-│   ├── components/
-│   │   ├── Home.jsx
-│   │   ├── History.jsx
-│   │   ├── News.jsx
-│   ├── styles/
-│   │   ├── Home.css
-│   │   ├── History.css
-│   │   ├── Landing.css
-│   ├── App.jsx
-│   └── index.js
+├── README.md
 │
-server/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── index.js
-```
+├── client
+│   ├── README.md
+│   ├── package.json
+│   ├── public
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   └── src
+│       ├── App.css
+│       ├── App.js
+│       ├── App.test.js
+│       ├── index.css
+│       ├── index.js
+│       ├── reportWebVitals.js
+│       ├── setupTests.js
+│       ├── assets
+│       │   ├── about1.jpg
+│       │   ├── about2.jpg
+│       │   └── home-hero-img.png
+│       ├── components
+│       │   ├── Login.jsx
+│       │   ├── Navbar.jsx
+│       │   └── Register.jsx
+│       ├── context
+│       │   └── GeneralContext.jsx
+│       ├── pages
+│       │   ├── Admin.jsx
+│       │   ├── AdminStockChart.jsx
+│       │   ├── AllOrders.jsx
+│       │   ├── AllTransactions.jsx
+│       │   ├── History.jsx
+│       │   ├── Home.jsx
+│       │   ├── Landing.jsx
+│       │   ├── News.jsx
+│       │   ├── Portfolio.jsx
+│       │   ├── Profile.jsx
+│       │   ├── StockChart.jsx
+│       │   └── Users.jsx
+│       ├── RouteProtectors
+│       │   ├── AuthProtector.jsx
+│       │   └── LoginProtector.jsx
+│       └── styles
+│           ├── Admin.css
+│           ├── AdminStockChart.css
+│           ├── AllOrders.css
+│           ├── AllTransactions.css
+│           ├── History.css
+│           ├── Home.css
+│           ├── Landing.css
+│           ├── Navbar.css
+│           ├── news.css
+│           ├── Portfolio.css
+│           ├── Profile.css
+│           ├── StockChart.css
+│           └── Users.css
+│
+└── server
+    ├── index.js
+    ├── package.json
+    └── Schema.js```
 
 ## 💻 Getting Started
 
